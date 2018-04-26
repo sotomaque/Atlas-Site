@@ -1,0 +1,1906 @@
+.x4-cc-coin {
+  background-image: url(./coins.png);
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+}
+
+.x4-cc-coin-0x {
+  background-position: -40px -5px;
+}
+.x4-cc-coin-2give {
+  background-position: -5px -40px;
+}
+.x4-cc-coin-300token {
+  background-position: -40px -40px;
+}
+.x4-cc-coin-808coin {
+  background-position: -75px -5px;
+}
+.x4-cc-coin-8bit {
+  background-position: -75px -40px;
+}
+.x4-cc-coin-BilShares {
+  background-position: -5px -75px;
+}
+.x4-cc-coin-BlockShares {
+  background-position: -40px -75px;
+}
+.x4-cc-coin-Ixcoin {
+  background-position: -75px -75px;
+}
+.x4-cc-coin-J1wuW41H {
+  background-position: -110px -5px;
+}
+.x4-cc-coin-MONACOINtop {
+  background-position: -110px -40px;
+}
+.x4-cc-coin-achain {
+  background-position: -110px -75px;
+}
+.x4-cc-coin-ziftrcoin {
+  background-position: -5px -110px;
+}
+.x4-cc-coin-adex {
+  background-position: -40px -110px;
+}
+.x4-cc-coin-adtoken {
+  background-position: -75px -110px;
+}
+.x4-cc-coin-adzcoin {
+  background-position: -110px -110px;
+}
+.x4-cc-coin-aelf {
+  background-position: -145px -5px;
+}
+.x4-cc-coin-aeon {
+  background-position: -145px -40px;
+}
+.x4-cc-coin-aerome {
+  background-position: -145px -75px;
+}
+.x4-cc-coin-aeternity {
+  background-position: -145px -110px;
+}
+.x4-cc-coin-agorastokens {
+  background-position: -5px -145px;
+}
+.x4-cc-coin-aiden {
+  background-position: -40px -145px;
+}
+.x4-cc-coin-aidoskuneen {
+  background-position: -75px -145px;
+}
+.x4-cc-coin-aion {
+  background-position: -110px -145px;
+}
+.x4-cc-coin-airswap {
+  background-position: -145px -145px;
+}
+.x4-cc-coin-ambercoin {
+  background-position: -180px -5px;
+}
+.x4-cc-coin-anc_icon {
+  background-position: -180px -40px;
+}
+.x4-cc-coin-anoncoin {
+  background-position: -180px -75px;
+}
+.x4-cc-coin-antshares {
+  background-position: -180px -110px;
+}
+.x4-cc-coin-apicoin {
+  background-position: -180px -145px;
+}
+.x4-cc-coin-applebyte {
+  background-position: -5px -180px;
+}
+.x4-cc-coin-applecoin {
+  background-position: -40px -180px;
+}
+.x4-cc-coin-apx {
+  background-position: -75px -180px;
+}
+.x4-cc-coin-aragon {
+  background-position: -110px -180px;
+}
+.x4-cc-coin-archcoin {
+  background-position: -145px -180px;
+}
+.x4-cc-coin-arcticcoin {
+  background-position: -180px -180px;
+}
+.x4-cc-coin-ardor {
+  background-position: -215px -5px;
+}
+.x4-cc-coin-ark {
+  background-position: -215px -40px;
+}
+.x4-cc-coin-artbyte {
+  background-position: -215px -75px;
+}
+.x4-cc-coin-asch {
+  background-position: -215px -110px;
+}
+.x4-cc-coin-asiacoin {
+  background-position: -215px -145px;
+}
+.x4-cc-coin-atmchain {
+  background-position: -215px -180px;
+}
+.x4-cc-coin-atmos {
+  background-position: -5px -215px;
+}
+.x4-cc-coin-atomic {
+  background-position: -40px -215px;
+}
+.x4-cc-coin-aud {
+  background-position: -75px -215px;
+}
+.x4-cc-coin-augur {
+  background-position: -110px -215px;
+}
+.x4-cc-coin-auroracoin {
+  background-position: -145px -215px;
+}
+.x4-cc-coin-bancor {
+  background-position: -180px -215px;
+}
+.x4-cc-coin-bancornetwork {
+  background-position: -215px -215px;
+}
+.x4-cc-coin-banx {
+  background-position: -250px -5px;
+}
+.x4-cc-coin-basicattenti {
+  background-position: -250px -75px;
+}
+.x4-cc-coin-bata {
+  background-position: -250px -110px;
+}
+.x4-cc-coin-batcoin {
+  background-position: -250px -145px;
+}
+.x4-cc-coin-bcap {
+  background-position: -250px -180px;
+}
+.x4-cc-coin-belacoin {
+  background-position: -250px -215px;
+}
+.x4-cc-coin-betacoin {
+  background-position: -5px -250px;
+}
+.x4-cc-coin-binancecoin {
+  background-position: -40px -250px;
+}
+.x4-cc-coin-bitGold {
+  background-position: -75px -250px;
+}
+.x4-cc-coin-bitasean {
+  background-position: -110px -250px;
+}
+.x4-cc-coin-bitbar {
+  background-position: -145px -250px;
+}
+.x4-cc-coin-bitbay {
+  background-position: -180px -250px;
+}
+.x4-cc-coin-bitbean {
+  background-position: -215px -250px;
+}
+.x4-cc-coin-bitcny {
+  background-position: -250px -250px;
+}
+.x4-cc-coin-bitcoin {
+  background-position: -285px -5px;
+}
+.x4-cc-coin-bitcoincash {
+  background-position: -285px -40px;
+}
+.x4-cc-coin-bitcoindark {
+  background-position: -285px -75px;
+}
+.x4-cc-coin-bitcoingold {
+  background-position: -285px -110px;
+}
+.x4-cc-coin-bitcoinplus {
+  background-position: -285px -145px;
+}
+.x4-cc-coin-bitcointx {
+  background-position: -285px -180px;
+}
+.x4-cc-coin-bitconnect {
+  background-position: -285px -215px;
+}
+.x4-cc-coin-bitcrystals {
+  background-position: -285px -250px;
+}
+.x4-cc-coin-bitdeal {
+  background-position: -5px -285px;
+}
+.x4-cc-coin-bitgem {
+  background-position: -40px -285px;
+}
+.x4-cc-coin-bitland {
+  background-position: -75px -285px;
+}
+.x4-cc-coin-bitlux {
+  background-position: -110px -285px;
+}
+.x4-cc-coin-bitmark {
+  background-position: -145px -285px;
+}
+.x4-cc-coin-bitpark-coin {
+  background-position: -180px -285px;
+}
+.x4-cc-coin-bitquence {
+  background-position: -215px -285px;
+}
+.x4-cc-coin-bitshares {
+  background-position: -285px -285px;
+}
+.x4-cc-coin-bitsharespts {
+  background-position: -320px -5px;
+}
+.x4-cc-coin-bitsharesx {
+  background-position: -320px -40px;
+}
+.x4-cc-coin-bitstake {
+  background-position: -320px -75px;
+}
+.x4-cc-coin-bitstar {
+  background-position: -320px -110px;
+}
+.x4-cc-coin-bitswift {
+  background-position: -320px -145px;
+}
+.x4-cc-coin-bitusd {
+  background-position: -320px -180px;
+}
+.x4-cc-coin-blackcoin {
+  background-position: -320px -215px;
+}
+.x4-cc-coin-blackmooncrypto {
+  background-position: -320px -250px;
+}
+.x4-cc-coin-blitz {
+  background-position: -320px -285px;
+}
+.x4-cc-coin-blitzcash {
+  background-position: -5px -320px;
+}
+.x4-cc-coin-blocknet {
+  background-position: -40px -320px;
+}
+.x4-cc-coin-blockpay {
+  background-position: -75px -320px;
+}
+.x4-cc-coin-blockv {
+  background-position: -110px -320px;
+}
+.x4-cc-coin-bluecoin {
+  background-position: -145px -320px;
+}
+.x4-cc-coin-boolberry {
+  background-position: -180px -320px;
+}
+.x4-cc-coin-boomcoin {
+  background-position: -215px -320px;
+}
+.x4-cc-coin-boostcoin {
+  background-position: -250px -320px;
+}
+.x4-cc-coin-bottlecaps {
+  background-position: -285px -320px;
+}
+.x4-cc-coin-breakout {
+  background-position: -320px -320px;
+}
+.x4-cc-coin-breakoutstake {
+  background-position: -355px -5px;
+}
+.x4-cc-coin-brl {
+  background-position: -355px -40px;
+}
+.x4-cc-coin-burst {
+  background-position: -355px -75px;
+}
+.x4-cc-coin-byteball {
+  background-position: -355px -110px;
+}
+.x4-cc-coin-byteballbytes {
+  background-position: -355px -145px;
+}
+.x4-cc-coin-bytecent {
+  background-position: -355px -180px;
+}
+.x4-cc-coin-bytecoin {
+  background-position: -355px -215px;
+}
+.x4-cc-coin-bytom {
+  background-position: -355px -250px;
+}
+.x4-cc-coin-cad {
+  background-position: -355px -285px;
+}
+.x4-cc-coin-caix {
+  background-position: -355px -320px;
+}
+.x4-cc-coin-camorracoin {
+  background-position: -5px -355px;
+}
+.x4-cc-coin-cannabiscoin {
+  background-position: -40px -355px;
+}
+.x4-cc-coin-cardano {
+  background-position: -75px -355px;
+}
+.x4-cc-coin-carpediemcoin {
+  background-position: -110px -355px;
+}
+.x4-cc-coin-casinocoin {
+  background-position: -145px -355px;
+}
+.x4-cc-coin-catcoin {
+  background-position: -180px -355px;
+}
+.x4-cc-coin-centra {
+  background-position: -215px -355px;
+}
+.x4-cc-coin-chaincoin {
+  background-position: -250px -355px;
+}
+.x4-cc-coin-chainlink {
+  background-position: -285px -355px;
+}
+.x4-cc-coin-chancecoin {
+  background-position: -320px -355px;
+}
+.x4-cc-coin-chf {
+  background-position: -355px -355px;
+}
+.x4-cc-coin-chncoin {
+  background-position: -390px -5px;
+}
+.x4-cc-coin-chococoin {
+  background-position: -390px -40px;
+}
+.x4-cc-coin-chronobank {
+  background-position: -390px -75px;
+}
+.x4-cc-coin-cinni {
+  background-position: -390px -110px;
+}
+.x4-cc-coin-circuitsofv {
+  background-position: -390px -145px;
+}
+.x4-cc-coin-civic {
+  background-position: -390px -180px;
+}
+.x4-cc-coin-clams {
+  background-position: -390px -215px;
+}
+.x4-cc-coin-cleanwatercoin {
+  background-position: -390px -250px;
+}
+.x4-cc-coin-cloakcoin {
+  background-position: -390px -285px;
+}
+.x4-cc-coin-cny {
+  background-position: -390px -320px;
+}
+.x4-cc-coin-cobinhood {
+  background-position: -390px -355px;
+}
+.x4-cc-coin-coeval {
+  background-position: -5px -390px;
+}
+.x4-cc-coin-cofoundit {
+  background-position: -40px -390px;
+}
+.x4-cc-coin-coin2.1 {
+  background-position: -75px -390px;
+}
+.x4-cc-coin-coindash {
+  background-position: -145px -390px;
+}
+.x4-cc-coin-coino {
+  background-position: -180px -390px;
+}
+.x4-cc-coin-coinomat {
+  background-position: -215px -390px;
+}
+.x4-cc-coin-coinousd {
+  background-position: -250px -390px;
+}
+.x4-cc-coin-communitycoin {
+  background-position: -285px -390px;
+}
+.x4-cc-coin-counterparty {
+  background-position: -320px -390px;
+}
+.x4-cc-coin-crave {
+  background-position: -355px -390px;
+}
+.x4-cc-coin-creditbit {
+  background-position: -390px -390px;
+}
+.x4-cc-coin-crevacoin {
+  background-position: -425px -5px;
+}
+.x4-cc-coin-crown {
+  background-position: -425px -40px;
+}
+.x4-cc-coin-cryptcoin {
+  background-position: -425px -75px;
+}
+.x4-cc-coin-crypti {
+  background-position: -425px -110px;
+}
+.x4-cc-coin-cryptobuk {
+  background-position: -425px -180px;
+}
+.x4-cc-coin-cryptobullion {
+  background-position: -425px -215px;
+}
+.x4-cc-coin-cryptocoins {
+  background-position: -425px -250px;
+}
+.x4-cc-coin-cryptonite {
+  background-position: -425px -285px;
+}
+.x4-cc-coin-curecoin {
+  background-position: -425px -320px;
+}
+.x4-cc-coin-cvcoin {
+  background-position: -425px -355px;
+}
+.x4-cc-coin-czacoin {
+  background-position: -425px -390px;
+}
+.x4-cc-coin-czechcrowncoin {
+  background-position: -5px -425px;
+}
+.x4-cc-coin-darcrus {
+  background-position: -40px -425px;
+}
+.x4-cc-coin-darkcoin {
+  background-position: -75px -425px;
+}
+.x4-cc-coin-darknote {
+  background-position: -110px -425px;
+}
+.x4-cc-coin-dash {
+  background-position: -145px -425px;
+}
+.x4-cc-coin-databits {
+  background-position: -180px -425px;
+}
+.x4-cc-coin-daxxcoin {
+  background-position: -215px -425px;
+}
+.x4-cc-coin-daytradercoin {
+  background-position: -250px -425px;
+}
+.x4-cc-coin-debune {
+  background-position: -285px -425px;
+}
+.x4-cc-coin-decent {
+  background-position: -320px -425px;
+}
+.x4-cc-coin-decred {
+  background-position: -355px -425px;
+}
+.x4-cc-coin-deepbrainchain {
+  background-position: -390px -425px;
+}
+.x4-cc-coin-default {
+  background-position: -425px -425px;
+}
+.x4-cc-coin-dent {
+  background-position: -460px -5px;
+}
+.x4-cc-coin-dentacoin {
+  background-position: -460px -40px;
+}
+.x4-cc-coin-deutsche.emark {
+  background-position: -460px -75px;
+}
+.x4-cc-coin-deutscheemark {
+  background-position: -460px -110px;
+}
+.x4-cc-coin-devcoin {
+  background-position: -460px -145px;
+}
+.x4-cc-coin-diamond {
+  background-position: -460px -180px;
+}
+.x4-cc-coin-digibyte {
+  background-position: -460px -215px;
+}
+.x4-cc-coin-digibytelogo {
+  background-position: -460px -250px;
+}
+.x4-cc-coin-digitalcoin {
+  background-position: -460px -285px;
+}
+.x4-cc-coin-digitalnote {
+  background-position: -460px -320px;
+}
+.x4-cc-coin-digixdao {
+  background-position: -460px -355px;
+}
+.x4-cc-coin-dirac {
+  background-position: -460px -390px;
+}
+.x4-cc-coin-district0x {
+  background-position: -460px -425px;
+}
+.x4-cc-coin-dnotes {
+  background-position: -5px -460px;
+}
+.x4-cc-coin-dnotes2 {
+  background-position: -40px -460px;
+}
+.x4-cc-coin-dogecoin {
+  background-position: -75px -460px;
+}
+.x4-cc-coin-dogecoindark {
+  background-position: -110px -460px;
+}
+.x4-cc-coin-dogeparty {
+  background-position: -145px -460px;
+}
+.x4-cc-coin-dollar {
+  background-position: -215px -460px;
+}
+.x4-cc-coin-dopecoin {
+  background-position: -250px -460px;
+}
+.x4-cc-coin-doubloons {
+  background-position: -285px -460px;
+}
+.x4-cc-coin-dragonchain {
+  background-position: -320px -460px;
+}
+.x4-cc-coin-dubaicoin {
+  background-position: -355px -460px;
+}
+.x4-cc-coin-e-dinarcoin {
+  background-position: -390px -460px;
+}
+.x4-cc-coin-earthcoin {
+  background-position: -425px -460px;
+}
+.x4-cc-coin-eb3coin {
+  background-position: -460px -460px;
+}
+.x4-cc-coin-eboost {
+  background-position: -495px -5px;
+}
+.x4-cc-coin-ecccoin {
+  background-position: -495px -40px;
+}
+.x4-cc-coin-ecobit {
+  background-position: -495px -75px;
+}
+.x4-cc-coin-ecoin {
+  background-position: -495px -110px;
+}
+.x4-cc-coin-ecurrencycoin {
+  background-position: -495px -145px;
+}
+.x4-cc-coin-edgeless {
+  background-position: -495px -180px;
+}
+.x4-cc-coin-edinarcoin {
+  background-position: -495px -215px;
+}
+.x4-cc-coin-einsteinium {
+  background-position: -495px -250px;
+}
+.x4-cc-coin-elastic {
+  background-position: -495px -285px;
+}
+.x4-cc-coin-electroneum {
+  background-position: -495px -320px;
+}
+.x4-cc-coin-electronic-gulden {
+  background-position: -495px -355px;
+}
+.x4-cc-coin-electronicgulden {
+  background-position: -495px -390px;
+}
+.x4-cc-coin-embers {
+  background-position: -495px -425px;
+}
+.x4-cc-coin-emc {
+  background-position: -495px -460px;
+}
+.x4-cc-coin-emercoin {
+  background-position: -5px -495px;
+}
+.x4-cc-coin-encryptotel {
+  background-position: -40px -495px;
+}
+.x4-cc-coin-energycoin {
+  background-position: -75px -495px;
+}
+.x4-cc-coin-enigma {
+  background-position: -110px -495px;
+}
+.x4-cc-coin-eos {
+  background-position: -145px -495px;
+}
+.x4-cc-coin-eryllium {
+  background-position: -180px -495px;
+}
+.x4-cc-coin-espers {
+  background-position: -215px -495px;
+}
+.x4-cc-coin-ethercoin {
+  background-position: -250px -495px;
+}
+.x4-cc-coin-ethereum {
+  background-position: -285px -495px;
+}
+.x4-cc-coin-ethereumclassic {
+  background-position: -320px -495px;
+}
+.x4-cc-coin-ethereummovi {
+  background-position: -355px -495px;
+}
+.x4-cc-coin-etheroll {
+  background-position: -390px -495px;
+}
+.x4-cc-coin-ethos {
+  background-position: -425px -495px;
+}
+.x4-cc-coin-eur {
+  background-position: -460px -495px;
+}
+.x4-cc-coin-everex {
+  background-position: -495px -495px;
+}
+.x4-cc-coin-exclusivecoin {
+  background-position: -530px -5px;
+}
+.x4-cc-coin-execoin {
+  background-position: -530px -40px;
+}
+.x4-cc-coin-expanse {
+  background-position: -530px -75px;
+}
+.x4-cc-coin-experiencepo {
+  background-position: -530px -110px;
+}
+.x4-cc-coin-experiment-10k {
+  background-position: -530px -180px;
+}
+.x4-cc-coin-experiment10k {
+  background-position: -530px -215px;
+}
+.x4-cc-coin-extreme {
+  background-position: -530px -320px;
+}
+.x4-cc-coin-extremecoin {
+  background-position: -530px -355px;
+}
+.x4-cc-coin-factom {
+  background-position: -530px -390px;
+}
+.x4-cc-coin-faircoin {
+  background-position: -530px -425px;
+}
+.x4-cc-coin-fastcoin {
+  background-position: -530px -460px;
+}
+.x4-cc-coin-favela_da_mare {
+  background-position: -530px -495px;
+}
+.x4-cc-coin-feathercoin {
+  background-position: -5px -530px;
+}
+.x4-cc-coin-fedoracoin {
+  background-position: -40px -530px;
+}
+.x4-cc-coin-fibre {
+  background-position: -75px -530px;
+}
+.x4-cc-coin-fimkrypto {
+  background-position: -110px -530px;
+}
+.x4-cc-coin-firstblood {
+  background-position: -145px -530px;
+}
+.x4-cc-coin-firstbloodprelaunch {
+  background-position: -180px -530px;
+}
+.x4-cc-coin-firstcoin {
+  background-position: -215px -530px;
+}
+.x4-cc-coin-flappycoin {
+  background-position: -250px -530px;
+}
+.x4-cc-coin-florincoin {
+  background-position: -285px -530px;
+}
+.x4-cc-coin-fluttercoin {
+  background-position: -320px -530px;
+}
+.x4-cc-coin-foldingcoin {
+  background-position: -355px -530px;
+}
+.x4-cc-coin-freemarket {
+  background-position: -390px -530px;
+}
+.x4-cc-coin-freicoin {
+  background-position: -425px -530px;
+}
+.x4-cc-coin-freshcoin {
+  background-position: -460px -530px;
+}
+.x4-cc-coin-fuelcoin {
+  background-position: -495px -530px;
+}
+.x4-cc-coin-funfair {
+  background-position: -530px -530px;
+}
+.x4-cc-coin-gambit {
+  background-position: -565px -5px;
+}
+.x4-cc-coin-gamecredits {
+  background-position: -565px -40px;
+}
+.x4-cc-coin-zetacoin {
+  background-position: -565px -75px;
+}
+.x4-cc-coin-ganjacoin {
+  background-position: -565px -110px;
+}
+.x4-cc-coin-gas {
+  background-position: -565px -145px;
+}
+.x4-cc-coin-gbp {
+  background-position: -565px -180px;
+}
+.x4-cc-coin-geocoin {
+  background-position: -565px -215px;
+}
+.x4-cc-coin-getgems {
+  background-position: -565px -250px;
+}
+.x4-cc-coin-givecoin {
+  background-position: -565px -285px;
+}
+.x4-cc-coin-globalcurren {
+  background-position: -565px -320px;
+}
+.x4-cc-coin-glyph {
+  background-position: -565px -355px;
+}
+.x4-cc-coin-gnosis {
+  background-position: -565px -390px;
+}
+.x4-cc-coin-goldcoin {
+  background-position: -565px -425px;
+}
+.x4-cc-coin-golem {
+  background-position: -565px -460px;
+}
+.x4-cc-coin-golos {
+  background-position: -565px -495px;
+}
+.x4-cc-coin-grandcoin {
+  background-position: -565px -530px;
+}
+.x4-cc-coin-greenbacks {
+  background-position: -5px -565px;
+}
+.x4-cc-coin-gridcoin {
+  background-position: -40px -565px;
+}
+.x4-cc-coin-groestlcoin {
+  background-position: -75px -565px;
+}
+.x4-cc-coin-gulden {
+  background-position: -110px -565px;
+}
+.x4-cc-coin-guldencoin {
+  background-position: -180px -565px;
+}
+.x4-cc-coin-gxshares {
+  background-position: -215px -565px;
+}
+.x4-cc-coin-hackergold {
+  background-position: -250px -565px;
+}
+.x4-cc-coin-happycoin {
+  background-position: -285px -565px;
+}
+.x4-cc-coin-heat {
+  background-position: -320px -565px;
+}
+.x4-cc-coin-hellascoin {
+  background-position: -355px -565px;
+}
+.x4-cc-coin-hkd {
+  background-position: -390px -565px;
+}
+.x4-cc-coin-hobonickels {
+  background-position: -425px -565px;
+}
+.x4-cc-coin-horizon {
+  background-position: -460px -565px;
+}
+.x4-cc-coin-hshare {
+  background-position: -495px -565px;
+}
+.x4-cc-coin-htmlcoin {
+  background-position: -530px -565px;
+}
+.x4-cc-coin-humaniq {
+  background-position: -565px -565px;
+}
+.x4-cc-coin-huntercoin {
+  background-position: -600px -5px;
+}
+.x4-cc-coin-hyper {
+  background-position: -600px -40px;
+}
+.x4-cc-coin-hyperstake {
+  background-position: -600px -75px;
+}
+.x4-cc-coin-i0coin {
+  background-position: -600px -110px;
+}
+.x4-cc-coin-icash {
+  background-position: -600px -145px;
+}
+.x4-cc-coin-ico {
+  background-position: -600px -180px;
+}
+.x4-cc-coin-icoin {
+  background-position: -600px -215px;
+}
+.x4-cc-coin-icon {
+  background-position: -600px -250px;
+}
+.x4-cc-coin-iconomi {
+  background-position: -600px -285px;
+}
+.x4-cc-coin-icoopenledger {
+  background-position: -600px -320px;
+}
+.x4-cc-coin-iexec {
+  background-position: -600px -355px;
+}
+.x4-cc-coin-iexecrlc {
+  background-position: -600px -390px;
+}
+.x4-cc-coin-ignis {
+  background-position: -600px -425px;
+}
+.x4-cc-coin-incakoin {
+  background-position: -600px -460px;
+}
+.x4-cc-coin-incent {
+  background-position: -600px -495px;
+}
+.x4-cc-coin-infinitecoin {
+  background-position: -600px -530px;
+}
+.x4-cc-coin-influxcoin {
+  background-position: -600px -565px;
+}
+.x4-cc-coin-inr {
+  background-position: -5px -600px;
+}
+.x4-cc-coin-insanecoin {
+  background-position: -40px -600px;
+}
+.x4-cc-coin-instantdex {
+  background-position: -75px -600px;
+}
+.x4-cc-coin-insurex {
+  background-position: -110px -600px;
+}
+.x4-cc-coin-iocoin {
+  background-position: -180px -600px;
+}
+.x4-cc-coin-ion {
+  background-position: -215px -600px;
+}
+.x4-cc-coin-iota {
+  background-position: -250px -600px;
+}
+.x4-cc-coin-isracoin {
+  background-position: -285px -600px;
+}
+.x4-cc-coin-jackpot {
+  background-position: -320px -600px;
+}
+.x4-cc-coin-jackpotcoin {
+  background-position: -355px -600px;
+}
+.x4-cc-coin-jay {
+  background-position: -390px -600px;
+}
+.x4-cc-coin-jinn {
+  background-position: -425px -600px;
+}
+.x4-cc-coin-jl777hodl {
+  background-position: -460px -600px;
+}
+.x4-cc-coin-jpy {
+  background-position: -495px -600px;
+}
+.x4-cc-coin-jumbucks {
+  background-position: -530px -600px;
+}
+.x4-cc-coin-karma {
+  background-position: -565px -600px;
+}
+.x4-cc-coin-kin {
+  background-position: -600px -600px;
+}
+.x4-cc-coin-klondikecoin {
+  background-position: -635px -5px;
+}
+.x4-cc-coin-kolschcoin {
+  background-position: -635px -40px;
+}
+.x4-cc-coin-komodo {
+  background-position: -635px -75px;
+}
+.x4-cc-coin-krugercoin {
+  background-position: -635px -110px;
+}
+.x4-cc-coin-krypton {
+  background-position: -635px -145px;
+}
+.x4-cc-coin-kucoinshares {
+  background-position: -635px -180px;
+}
+.x4-cc-coin-kybernetwork {
+  background-position: -635px -215px;
+}
+.x4-cc-coin-pinkcoin {
+  background-position: -915px -5px;
+}
+.x4-cc-coin-lbrycredits {
+  background-position: -635px -285px;
+}
+.x4-cc-coin-leocoin {
+  background-position: -635px -320px;
+}
+.x4-cc-coin-librexcoin {
+  background-position: -635px -355px;
+}
+.x4-cc-coin-limecoinx {
+  background-position: -635px -390px;
+}
+.x4-cc-coin-liquid {
+  background-position: -635px -425px;
+}
+.x4-cc-coin-lisk {
+  background-position: -635px -460px;
+}
+.x4-cc-coin-litecoin {
+  background-position: -635px -495px;
+}
+.x4-cc-coin-lomocoin {
+  background-position: -635px -530px;
+}
+.x4-cc-coin-loopring {
+  background-position: -635px -565px;
+}
+.x4-cc-coin-lottoshares {
+  background-position: -635px -600px;
+}
+.x4-cc-coin-ltbcoin {
+  background-position: -5px -635px;
+}
+.x4-cc-coin-luckchain {
+  background-position: -40px -635px;
+}
+.x4-cc-coin-luckycoin {
+  background-position: -75px -635px;
+}
+.x4-cc-coin-lunyr {
+  background-position: -110px -635px;
+}
+.x4-cc-coin-lux {
+  background-position: -145px -635px;
+}
+.x4-cc-coin-luxcoin {
+  background-position: -180px -635px;
+}
+.x4-cc-coin-lykke {
+  background-position: -215px -635px;
+}
+.x4-cc-coin-magi {
+  background-position: -250px -635px;
+}
+.x4-cc-coin-magiccoin {
+  background-position: -285px -635px;
+}
+.x4-cc-coin-maidsafecoin {
+  background-position: -320px -635px;
+}
+.x4-cc-coin-maryjane {
+  background-position: -355px -635px;
+}
+.x4-cc-coin-mastercoin {
+  background-position: -425px -635px;
+}
+.x4-cc-coin-mastercoinomni {
+  background-position: -460px -635px;
+}
+.x4-cc-coin-matchpool {
+  background-position: -495px -635px;
+}
+.x4-cc-coin-maxcoin {
+  background-position: -530px -635px;
+}
+.x4-cc-coin-mazacoin {
+  background-position: -565px -635px;
+}
+.x4-cc-coin-mcap {
+  background-position: -600px -635px;
+}
+.x4-cc-coin-medibloc {
+  background-position: -635px -635px;
+}
+.x4-cc-coin-megacoin {
+  background-position: -670px -5px;
+}
+.x4-cc-coin-melon {
+  background-position: -670px -40px;
+}
+.x4-cc-coin-memorycoin {
+  background-position: -670px -75px;
+}
+.x4-cc-coin-mergecoin {
+  background-position: -670px -110px;
+}
+.x4-cc-coin-metal {
+  background-position: -670px -145px;
+}
+.x4-cc-coin-metaverseent {
+  background-position: -670px -180px;
+}
+.x4-cc-coin-metaverseetp {
+  background-position: -670px -215px;
+}
+.x4-cc-coin-mgw {
+  background-position: -670px -250px;
+}
+.x4-cc-coin-midas-rezerv {
+  background-position: -670px -285px;
+}
+.x4-cc-coin-midas.rezerv {
+  background-position: -670px -320px;
+}
+.x4-cc-coin-mincoin {
+  background-position: -670px -355px;
+}
+.x4-cc-coin-mintcoin {
+  background-position: -670px -425px;
+}
+.x4-cc-coin-missing {
+  background-position: -670px -460px;
+}
+.x4-cc-coin-mmnxt {
+  background-position: -670px -495px;
+}
+.x4-cc-coin-mobilego {
+  background-position: -670px -530px;
+}
+.x4-cc-coin-monaco {
+  background-position: -670px -565px;
+}
+.x4-cc-coin-monacoin {
+  background-position: -670px -600px;
+}
+.x4-cc-coin-monero {
+  background-position: -670px -635px;
+}
+.x4-cc-coin-monetaryunit {
+  background-position: -5px -670px;
+}
+.x4-cc-coin-monetha {
+  background-position: -40px -670px;
+}
+.x4-cc-coin-mooncoin {
+  background-position: -75px -670px;
+}
+.x4-cc-coin-mothership {
+  background-position: -110px -670px;
+}
+.x4-cc-coin-muse {
+  background-position: -145px -670px;
+}
+.x4-cc-coin-musicoin {
+  background-position: -180px -670px;
+}
+.x4-cc-coin-mxn {
+  background-position: -215px -670px;
+}
+.x4-cc-coin-myriad {
+  background-position: -250px -670px;
+}
+.x4-cc-coin-myriadcoin {
+  background-position: -285px -670px;
+}
+.x4-cc-coin-mysterium {
+  background-position: -320px -670px;
+}
+.x4-cc-coin-namecoin {
+  background-position: -355px -670px;
+}
+.x4-cc-coin-nas {
+  background-position: -390px -670px;
+}
+.x4-cc-coin-nautiluscoin {
+  background-position: -425px -670px;
+}
+.x4-cc-coin-navajo {
+  background-position: -460px -670px;
+}
+.x4-cc-coin-navajocoin {
+  background-position: -495px -670px;
+}
+.x4-cc-coin-navcoin {
+  background-position: -530px -670px;
+}
+.x4-cc-coin-neblio {
+  background-position: -565px -670px;
+}
+.x4-cc-coin-nem {
+  background-position: -600px -670px;
+}
+.x4-cc-coin-neo {
+  background-position: -635px -670px;
+}
+.x4-cc-coin-neodice {
+  background-position: -670px -670px;
+}
+.x4-cc-coin-neoscoin {
+  background-position: -705px -5px;
+}
+.x4-cc-coin-netcoin {
+  background-position: -705px -40px;
+}
+.x4-cc-coin-newyorkcoin {
+  background-position: -705px -75px;
+}
+.x4-cc-coin-nexium {
+  background-position: -705px -110px;
+}
+.x4-cc-coin-nexus {
+  background-position: -705px -180px;
+}
+.x4-cc-coin-nexuseconomy {
+  background-position: -705px -215px;
+}
+.x4-cc-coin-nimiq {
+  background-position: -705px -250px;
+}
+.x4-cc-coin-noblecoin {
+  background-position: -705px -285px;
+}
+.x4-cc-coin-node {
+  background-position: -705px -320px;
+}
+.x4-cc-coin-noirshares {
+  background-position: -705px -355px;
+}
+.x4-cc-coin-nolimitcoin {
+  background-position: -705px -390px;
+}
+.x4-cc-coin-novacoin {
+  background-position: -705px -425px;
+}
+.x4-cc-coin-nubits {
+  background-position: -705px -460px;
+}
+.x4-cc-coin-numeraire {
+  background-position: -705px -495px;
+}
+.x4-cc-coin-nushares {
+  background-position: -705px -530px;
+}
+.x4-cc-coin-nvo {
+  background-position: -705px -565px;
+}
+.x4-cc-coin-nxt {
+  background-position: -705px -600px;
+}
+.x4-cc-coin-nxtprivacy {
+  background-position: -705px -635px;
+}
+.x4-cc-coin-nxttycoin {
+  background-position: -705px -670px;
+}
+.x4-cc-coin-nxtventure {
+  background-position: -5px -705px;
+}
+.x4-cc-coin-obits {
+  background-position: -40px -705px;
+}
+.x4-cc-coin-octocoin {
+  background-position: -75px -705px;
+}
+.x4-cc-coin-okcash {
+  background-position: -110px -705px;
+}
+.x4-cc-coin-omisego {
+  background-position: -145px -705px;
+}
+.x4-cc-coin-omni {
+  background-position: -180px -705px;
+}
+.x4-cc-coin-omnicoin {
+  background-position: -215px -705px;
+}
+.x4-cc-coin-opal {
+  background-position: -250px -705px;
+}
+.x4-cc-coin-orbitcoin {
+  background-position: -285px -705px;
+}
+.x4-cc-coin-pacoin {
+  background-position: -320px -705px;
+}
+.x4-cc-coin-pandacoin {
+  background-position: -355px -705px;
+}
+.x4-cc-coin-pandacoin_coin_transparent {
+  background-position: -390px -705px;
+}
+.x4-cc-coin-zennies {
+  background-position: -425px -705px;
+}
+.x4-cc-coin-pangeapoker {
+  background-position: -460px -705px;
+}
+.x4-cc-coin-pangeapokercoin {
+  background-position: -495px -705px;
+}
+.x4-cc-coin-particl {
+  background-position: -530px -705px;
+}
+.x4-cc-coin-particle {
+  background-position: -600px -705px;
+}
+.x4-cc-coin-pascalcoin {
+  background-position: -635px -705px;
+}
+.x4-cc-coin-patientory {
+  background-position: -670px -705px;
+}
+.x4-cc-coin-paycoin {
+  background-position: -705px -705px;
+}
+.x4-cc-coin-peercoin {
+  background-position: -740px -5px;
+}
+.x4-cc-coin-peerplays {
+  background-position: -740px -40px;
+}
+.x4-cc-coin-pepecash {
+  background-position: -740px -75px;
+}
+.x4-cc-coin-phoenixcoin {
+  background-position: -740px -110px;
+}
+.x4-cc-coin-php {
+  background-position: -740px -145px;
+}
+.x4-cc-coin-piggycoin {
+  background-position: -740px -180px;
+}
+.x4-cc-coin-pillar {
+  background-position: -740px -215px;
+}
+.x4-cc-coin-zencash {
+  background-position: -740px -250px;
+}
+.x4-cc-coin-pivx {
+  background-position: -740px -285px;
+}
+.x4-cc-coin-pln {
+  background-position: -740px -320px;
+}
+.x4-cc-coin-pluton {
+  background-position: -740px -355px;
+}
+.x4-cc-coin-poet {
+  background-position: -740px -390px;
+}
+.x4-cc-coin-polybius {
+  background-position: -740px -425px;
+}
+.x4-cc-coin-popularcoin {
+  background-position: -740px -460px;
+}
+.x4-cc-coin-populous {
+  background-position: -740px -495px;
+}
+.x4-cc-coin-positron {
+  background-position: -740px -530px;
+}
+.x4-cc-coin-postcoin {
+  background-position: -740px -565px;
+}
+.x4-cc-coin-potcoin {
+  background-position: -740px -635px;
+}
+.x4-cc-coin-potcoinlogo {
+  background-position: -740px -670px;
+}
+.x4-cc-coin-powerledger {
+  background-position: -740px -705px;
+}
+.x4-cc-coin-primecoin {
+  background-position: -5px -740px;
+}
+.x4-cc-coin-privatebet {
+  background-position: -40px -740px;
+}
+.x4-cc-coin-prizm {
+  background-position: -75px -740px;
+}
+.x4-cc-coin-projectdecorum {
+  background-position: -110px -740px;
+}
+.x4-cc-coin-pseudocash {
+  background-position: -145px -740px;
+}
+.x4-cc-coin-pura {
+  background-position: -180px -740px;
+}
+.x4-cc-coin-putincoin {
+  background-position: -215px -740px;
+}
+.x4-cc-coin-qash {
+  background-position: -250px -740px;
+}
+.x4-cc-coin-qibuck {
+  background-position: -285px -740px;
+}
+.x4-cc-coin-qora {
+  background-position: -320px -740px;
+}
+.x4-cc-coin-qtum {
+  background-position: -355px -740px;
+}
+.x4-cc-coin-quantstamp {
+  background-position: -390px -740px;
+}
+.x4-cc-coin-quantum {
+  background-position: -425px -740px;
+}
+.x4-cc-coin-quantumresis {
+  background-position: -495px -740px;
+}
+.x4-cc-coin-quark {
+  background-position: -530px -740px;
+}
+.x4-cc-coin-quatloocoin {
+  background-position: -565px -740px;
+}
+.x4-cc-coin-qwark {
+  background-position: -600px -740px;
+}
+.x4-cc-coin-r-270x250 {
+  background-position: -635px -740px;
+}
+.x4-cc-coin-radium {
+  background-position: -670px -740px;
+}
+.x4-cc-coin-raiblocks {
+  background-position: -705px -740px;
+}
+.x4-cc-coin-raidennetwor {
+  background-position: -740px -740px;
+}
+.x4-cc-coin-razor {
+  background-position: -775px -5px;
+}
+.x4-cc-coin-rchain {
+  background-position: -775px -40px;
+}
+.x4-cc-coin-redcoin {
+  background-position: -775px -75px;
+}
+.x4-cc-coin-reddcoin {
+  background-position: -775px -110px;
+}
+.x4-cc-coin-regalcoin {
+  background-position: -775px -145px;
+}
+.x4-cc-coin-requestnetwork {
+  background-position: -775px -180px;
+}
+.x4-cc-coin-rialto {
+  background-position: -775px -215px;
+}
+.x4-cc-coin-ribbitrewards {
+  background-position: -775px -250px;
+}
+.x4-cc-coin-riecoin {
+  background-position: -775px -285px;
+}
+.x4-cc-coin-rimbit {
+  background-position: -775px -320px;
+}
+.x4-cc-coin-ripiocredit {
+  background-position: -775px -390px;
+}
+.x4-cc-coin-ripple {
+  background-position: -775px -425px;
+}
+.x4-cc-coin-rise {
+  background-position: -775px -460px;
+}
+.x4-cc-coin-rlc {
+  background-position: -775px -495px;
+}
+.x4-cc-coin-roulettetoken {
+  background-position: -775px -530px;
+}
+.x4-cc-coin-round {
+  background-position: -775px -565px;
+}
+.x4-cc-coin-roxcoin {
+  background-position: -775px -600px;
+}
+.x4-cc-coin-rub {
+  background-position: -775px -635px;
+}
+.x4-cc-coin-rubycoin {
+  background-position: -775px -670px;
+}
+.x4-cc-coin-safeexchang {
+  background-position: -775px -740px;
+}
+.x4-cc-coin-safeexchange {
+  background-position: -5px -775px;
+}
+.x4-cc-coin-safeexchangecoin {
+  background-position: -40px -775px;
+}
+.x4-cc-coin-saffroncoin {
+  background-position: -75px -775px;
+}
+.x4-cc-coin-salt {
+  background-position: -110px -775px;
+}
+.x4-cc-coin-salus {
+  background-position: -145px -775px;
+}
+.x4-cc-coin-santimentnet {
+  background-position: -180px -775px;
+}
+.x4-cc-coin-saturn2coin {
+  background-position: -250px -775px;
+}
+.x4-cc-coin-scorecoin {
+  background-position: -285px -775px;
+}
+.x4-cc-coin-scotcoin {
+  background-position: -320px -775px;
+}
+.x4-cc-coin-securecoin {
+  background-position: -355px -775px;
+}
+.x4-cc-coin-sek {
+  background-position: -390px -775px;
+}
+.x4-cc-coin-sembro.token {
+  background-position: -425px -775px;
+}
+.x4-cc-coin-sequence {
+  background-position: -460px -775px;
+}
+.x4-cc-coin-sexcoin {
+  background-position: -495px -775px;
+}
+.x4-cc-coin-sgd {
+  background-position: -530px -775px;
+}
+.x4-cc-coin-shadowcash {
+  background-position: -600px -775px;
+}
+.x4-cc-coin-zeitcoin {
+  background-position: -635px -775px;
+}
+.x4-cc-coin-shadowcoin {
+  background-position: -670px -775px;
+}
+.x4-cc-coin-sharkfund0 {
+  background-position: -705px -775px;
+}
+.x4-cc-coin-shift {
+  background-position: -740px -775px;
+}
+.x4-cc-coin-siacoin {
+  background-position: -775px -775px;
+}
+.x4-cc-coin-sibcoin {
+  background-position: -810px -5px;
+}
+.x4-cc-coin-silkcoin {
+  background-position: -810px -40px;
+}
+.x4-cc-coin-singulardtv {
+  background-position: -810px -75px;
+}
+.x4-cc-coin-sixeleven {
+  background-position: -810px -110px;
+}
+.x4-cc-coin-skycoin {
+  background-position: -810px -145px;
+}
+.x4-cc-coin-skynet {
+  background-position: -810px -180px;
+}
+.x4-cc-coin-slimcoin {
+  background-position: -810px -215px;
+}
+.x4-cc-coin-smartcash {
+  background-position: -810px -250px;
+}
+.x4-cc-coin-smileycoin {
+  background-position: -810px -285px;
+}
+.x4-cc-coin-snowballs {
+  background-position: -810px -320px;
+}
+.x4-cc-coin-soarcoin {
+  background-position: -810px -355px;
+}
+.x4-cc-coin-solarcoin {
+  background-position: -810px -390px;
+}
+.x4-cc-coin-solarfarm {
+  background-position: -810px -425px;
+}
+.x4-cc-coin-solorfarm {
+  background-position: -810px -460px;
+}
+.x4-cc-coin-sonm {
+  background-position: -810px -495px;
+}
+.x4-cc-coin-spectrecoin {
+  background-position: -810px -530px;
+}
+.x4-cc-coin-sphere {
+  background-position: -810px -565px;
+}
+.x4-cc-coin-spreadcoin {
+  background-position: -810px -600px;
+}
+.x4-cc-coin-sprouts {
+  background-position: -810px -635px;
+}
+.x4-cc-coin-starta {
+  background-position: -810px -670px;
+}
+.x4-cc-coin-startcoin {
+  background-position: -810px -705px;
+}
+.x4-cc-coin-status {
+  background-position: -810px -740px;
+}
+.x4-cc-coin-stealthcoin {
+  background-position: -810px -775px;
+}
+.x4-cc-coin-steem {
+  background-position: -5px -810px;
+}
+.x4-cc-coin-steemdollars {
+  background-position: -40px -810px;
+}
+.x4-cc-coin-stellar {
+  background-position: -75px -810px;
+}
+.x4-cc-coin-stellarlumens {
+  background-position: -110px -810px;
+}
+.x4-cc-coin-sterlingcoin {
+  background-position: -145px -810px;
+}
+.x4-cc-coin-storj {
+  background-position: -180px -810px;
+}
+.x4-cc-coin-storjcoin {
+  background-position: -250px -810px;
+}
+.x4-cc-coin-storjcoinx {
+  background-position: -285px -810px;
+}
+.x4-cc-coin-storm {
+  background-position: -320px -810px;
+}
+.x4-cc-coin-stox {
+  background-position: -355px -810px;
+}
+.x4-cc-coin-stratis {
+  background-position: -390px -810px;
+}
+.x4-cc-coin-substratum {
+  background-position: -425px -810px;
+}
+.x4-cc-coin-supercoin {
+  background-position: -460px -810px;
+}
+.x4-cc-coin-supernet {
+  background-position: -495px -810px;
+}
+.x4-cc-coin-swarm {
+  background-position: -530px -810px;
+}
+.x4-cc-coin-swarmcity {
+  background-position: -565px -810px;
+}
+.x4-cc-coin-sync {
+  background-position: -600px -810px;
+}
+.x4-cc-coin-synccoin {
+  background-position: -635px -810px;
+}
+.x4-cc-coin-syndicate {
+  background-position: -670px -810px;
+}
+.x4-cc-coin-synereo {
+  background-position: -705px -810px;
+}
+.x4-cc-coin-synergy {
+  background-position: -740px -810px;
+}
+.x4-cc-coin-syscoin {
+  background-position: -775px -810px;
+}
+.x4-cc-coin-taas {
+  background-position: -810px -810px;
+}
+.x4-cc-coin-tekcoin {
+  background-position: -845px -5px;
+}
+.x4-cc-coin-tenx {
+  background-position: -845px -40px;
+}
+.x4-cc-coin-terracoin {
+  background-position: -845px -75px;
+}
+.x4-cc-coin-teslacoin {
+  background-position: -845px -110px;
+}
+.x4-cc-coin-tether {
+  background-position: -845px -145px;
+}
+.x4-cc-coin-thechampcoin {
+  background-position: -845px -180px;
+}
+.x4-cc-coin-thedao {
+  background-position: -845px -215px;
+}
+.x4-cc-coin-tickets {
+  background-position: -845px -250px;
+}
+.x4-cc-coin-tilecoin {
+  background-position: -845px -320px;
+}
+.x4-cc-coin-timenewbank {
+  background-position: -845px -355px;
+}
+.x4-cc-coin-titcoin {
+  background-position: -845px -390px;
+}
+.x4-cc-coin-tixcoin {
+  background-position: -845px -425px;
+}
+.x4-cc-coin-tokencard {
+  background-position: -845px -460px;
+}
+.x4-cc-coin-tokes {
+  background-position: -845px -495px;
+}
+.x4-cc-coin-tradebots {
+  background-position: -845px -530px;
+}
+.x4-cc-coin-triggers {
+  background-position: -845px -565px;
+}
+.x4-cc-coin-tron {
+  background-position: -845px -600px;
+}
+.x4-cc-coin-trumpcoin {
+  background-position: -845px -635px;
+}
+.x4-cc-coin-trustplus {
+  background-position: -845px -670px;
+}
+.x4-cc-coin-ubiq {
+  background-position: -845px -705px;
+}
+.x4-cc-coin-ucicoin {
+  background-position: -845px -740px;
+}
+.x4-cc-coin-ufocoin {
+  background-position: -845px -775px;
+}
+.x4-cc-coin-ultracoin {
+  background-position: -845px -810px;
+}
+.x4-cc-coin-unbreakablecoin {
+  background-position: -5px -845px;
+}
+.x4-cc-coin-unityingot {
+  background-position: -40px -845px;
+}
+.x4-cc-coin-unobtanium {
+  background-position: -110px -845px;
+}
+.x4-cc-coin-uro-coin-logo {
+  background-position: -145px -845px;
+}
+.x4-cc-coin-uro {
+  background-position: -180px -845px;
+}
+.x4-cc-coin-usd {
+  background-position: -215px -845px;
+}
+.x4-cc-coin-usde {
+  background-position: -250px -845px;
+}
+.x4-cc-coin-utilitycoin {
+  background-position: -285px -845px;
+}
+.x4-cc-coin-utrust {
+  background-position: -355px -845px;
+}
+.x4-cc-coin-vanillacoin {
+  background-position: -390px -845px;
+}
+.x4-cc-coin-vcash {
+  background-position: -425px -845px;
+}
+.x4-cc-coin-vechain {
+  background-position: -460px -845px;
+}
+.x4-cc-coin-veltor {
+  background-position: -495px -845px;
+}
+.x4-cc-coin-verge {
+  background-position: -530px -845px;
+}
+.x4-cc-coin-vericoin {
+  background-position: -600px -845px;
+}
+.x4-cc-coin-veritaseum {
+  background-position: -635px -845px;
+}
+.x4-cc-coin-veriumreserve {
+  background-position: -670px -845px;
+}
+.x4-cc-coin-veros {
+  background-position: -705px -845px;
+}
+.x4-cc-coin-vertacoin {
+  background-position: -740px -845px;
+}
+.x4-cc-coin-vertcoin {
+  background-position: -775px -845px;
+}
+.x4-cc-coin-viacoin {
+  background-position: -810px -845px;
+}
+.x4-cc-coin-vibe {
+  background-position: -845px -845px;
+}
+.x4-cc-coin-virtacoin {
+  background-position: -880px -5px;
+}
+.x4-cc-coin-vootcoin {
+  background-position: -880px -40px;
+}
+.x4-cc-coin-voxels {
+  background-position: -880px -75px;
+}
+.x4-cc-coin-vpncoin {
+  background-position: -880px -110px;
+}
+.x4-cc-coin-vslice {
+  background-position: -880px -145px;
+}
+.x4-cc-coin-vslice_white {
+  background-position: -880px -180px;
+}
+.x4-cc-coin-vtorrent {
+  background-position: -880px -215px;
+}
+.x4-cc-coin-wagerr {
+  background-position: -880px -250px;
+}
+.x4-cc-coin-walton {
+  background-position: -880px -285px;
+}
+.x4-cc-coin-wankcoin {
+  background-position: -880px -320px;
+}
+.x4-cc-coin-waves {
+  background-position: -880px -355px;
+}
+.x4-cc-coin-wavescommuni {
+  background-position: -880px -390px;
+}
+.x4-cc-coin-wax {
+  background-position: -880px -425px;
+}
+.x4-cc-coin-wetrust {
+  background-position: -880px -460px;
+}
+.x4-cc-coin-whitecoin {
+  background-position: -880px -495px;
+}
+.x4-cc-coin-wildbeastblock {
+  background-position: -880px -530px;
+}
+.x4-cc-coin-wings {
+  background-position: -880px -565px;
+}
+.x4-cc-coin-woodcoin {
+  background-position: -880px -600px;
+}
+.x4-cc-coin-worldcoin {
+  background-position: -880px -635px;
+}
+.x4-cc-coin-xaurum {
+  background-position: -880px -670px;
+}
+.x4-cc-coin-xcurrency {
+  background-position: -880px -705px;
+}
+.x4-cc-coin-xljhog {
+  background-position: -880px -740px;
+}
+.x4-cc-coin-xtrabytes {
+  background-position: -880px -775px;
+}
+.x4-cc-coin-xxxcoin {
+  background-position: -880px -810px;
+}
+.x4-cc-coin-ybcoin {
+  background-position: -880px -845px;
+}
+.x4-cc-coin-yocoin {
+  background-position: -40px -880px;
+}
+.x4-cc-coin-zar {
+  background-position: -75px -880px;
+}
+.x4-cc-coin-zcash {
+  background-position: -110px -880px;
+}
+.x4-cc-coin-zccoin {
+  background-position: -145px -880px;
+}
+.x4-cc-coin-zclassic {
+  background-position: -180px -880px;
+}
+.x4-cc-coin-zcoin {
+  background-position: -215px -880px;
+}
+.x4-cc-coin-zrcoin {
+  background-position: -250px -880px;
+}
+.x4-cc-coin-gameleaguecoin {
+  background-position: -285px -880px;
+}
+.x4-cc-coin-adelphoi {
+  background-position: -319px -880px;
+}

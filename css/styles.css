@@ -1,0 +1,131 @@
+/* base options */
+body {
+  box-sizing: border-box;
+  color: rgba(0,0,0,.87);
+  font-family: 'Roboto',sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+a {
+  color: rgba(0,0,0,.87);
+  text-decoration: none;
+  transition: .3s cubic-bezier(.25,.8,.5,1);
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'liga';
+}
+
+/* examples region */
+#examples {
+  overflow: hidden;
+  padding: 0;
+  text-align: center;
+}
+
+#examples > .title {
+  color: #00BCD4;
+  font-size: 48px;
+  font-weight: 700;
+  padding: 0 24px;
+}
+
+#examples > .description {
+  font-size: 16px;
+  margin: 0 auto;
+  max-width: 780px;
+  padding: 24px 32px 0;
+}
+
+#examples > .example {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 100px 16px 0;
+  width: 100%;
+}
+
+#examples > .example > .title {
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 16px;
+  text-align: left;
+}
+
+#examples > .example > .tabs {
+  background-color: #665B94;
+  color: #fff;
+  font-size: 0;
+  height: 48px;
+  line-height: 0;
+  padding: 0 60px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+#examples > .example > .tabs > .tab {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  height: 100%;
+  line-height: 1.5;
+  opacity: 0.7;
+  padding: 14px 24px 0;
+  text-transform: uppercase;
+  transition: .3s cubic-bezier(.25,.8,.5,1);
+}
+
+#examples > .example > .tabs > .tab.active {
+  border-bottom: 2px solid #ffeb3b;
+  opacity: 1;
+}
+
+#examples > .example > .contents {
+  position: relative;
+}
+
+#examples > .example > .contents > .content {
+  display: none;
+  margin: 24px 0;
+}
+
+#examples > .example > .contents > .content.active {
+  display: block;
+}
+
+#examples > .example > .contents > .content .syntaxhighlighter {
+  overflow-y: hidden!important;
+}
+
+@media (max-width: 576px) {
+
+  #examples > .example > .tabs {
+    padding: 0;
+  }
+
+}

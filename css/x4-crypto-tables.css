@@ -1,0 +1,650 @@
+/* Base styles */
+.x4-crypto-tables {
+  box-sizing: border-box;
+  position: relative;
+  color: rgba(0,0,0,.87);
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+}
+
+.x4-crypto-tables * {
+  box-sizing: border-box;
+  transition: .3s cubic-bezier(.25,.8,.5,1);
+}
+
+.x4-crypto-tables .x4-clearfix:after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+/* Material Icons */
+.x4-crypto-tables .x4-icon {
+  display: inline-block;
+  font-size: 0;
+}
+.x4-crypto-tables .x4-icon svg {
+  fill: rgba(0,0,0,.54);
+  height: 24px;
+  width: 24px;
+}
+
+/* Root regions */
+.x4-crypto-tables .x4-loader {
+  height: 200px;
+  margin: 48px auto;
+  width: 200px;
+}
+.x4-crypto-tables .x4-header {
+  position: relative;
+}
+.x4-crypto-tables .x4-tables {
+  position: relative;
+}
+.x4-crypto-tables .x4-footer {
+  position: relative;
+}
+
+/* Custom scroll control */
+.x4-crypto-tables .x4-scroll::-webkit-scrollbar {
+  height: 9px;
+  width: 9px;
+}
+.x4-crypto-tables .x4-scroll::-webkit-scrollbar-thumb {
+  background-clip: padding-box;
+  background-color: #c9c9c9;
+  border: 3px solid rgba(0,0,0,0);
+}
+.x4-crypto-tables .x4-scroll::-webkit-scrollbar-button {
+  display: none;
+  height: 0;
+  width: 0;
+}
+.x4-crypto-tables .x4-scroll::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+/* Data Loader */
+.x4-crypto-tables .x4-ui-loader {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+.x4-crypto-tables .x4-ui-loader .x4-shape {
+  border-radius: 50%;
+  box-sizing: border-box;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+.x4-crypto-tables .x4-ui-loader .x4-shape.x4-shape1 {
+  animation: x4-ui-loader1 1.15s linear infinite;
+  border-bottom: 3px solid rgb(0,0,0);
+  left: 0;
+  top: 0;
+}
+.x4-crypto-tables .x4-ui-loader .x4-shape.x4-shape2 {
+  animation: x4-ui-loader2 1.15s linear infinite;
+  border-right: 3px solid rgb(0,0,0);
+  right: 0;
+  top: 0;
+}
+.x4-crypto-tables .x4-ui-loader .x4-shape.x4-shape3 {
+  animation: x4-ui-loader3 1.15s linear infinite;
+  border-top: 3px solid rgb(0,0,0);
+  right: 0;
+  bottom: 0;
+}
+@keyframes x4-ui-loader1 {
+  0% {
+    transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+  }
+}
+@keyframes x4-ui-loader2 {
+  0% {
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+  }
+}
+@keyframes x4-ui-loader3 {
+  0% {
+    transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+  }
+}
+
+/* Select Box */
+.x4-crypto-tables .x4-ui-select {
+  position: relative;
+  min-width: 80px;
+}
+.x4-crypto-tables .x4-ui-select .x4-box {
+  cursor: pointer;
+  position: relative;
+  height: 32px;
+}
+.x4-crypto-tables .x4-ui-select .x4-box .x4-icon {
+  position: absolute;
+  right: 6px;
+  top: 4px;
+}
+.x4-crypto-tables .x4-ui-select .x4-box .x4-value {
+  font-size: 16px;
+  padding-top: 4px;
+}
+.x4-crypto-tables .x4-ui-select .x4-box .x4-line {
+  bottom: 0px;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+.x4-crypto-tables .x4-ui-select .x4-box .x4-line .x4-shape1 {
+  background-color: rgba(0,0,0,.42);
+  height: 1px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+.x4-crypto-tables .x4-ui-select .x4-box .x4-line .x4-shape2 {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: scaleX(0);
+  transform-origin: center center 0;
+  transition: .3s cubic-bezier(.4,0,.2,1);
+  z-index: 1;
+}
+.x4-crypto-tables .x4-ui-select .x4-backdrop {
+  bottom: 0;
+  display: none;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 500;
+}
+.x4-crypto-tables .x4-ui-select .x4-menu {
+  opacity: 0;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: absolute;
+  width: 100%;
+  z-index: -1000;
+  background-color: #fff;
+  max-height: 0;
+  min-width: 75px;
+  padding: 8px 0;
+}
+.x4-crypto-tables .x4-ui-select .x4-menu .x4-option {
+  cursor: pointer;
+  overflow: hidden;
+  font-size: 16px;
+  height: 48px;
+  padding: 12px 16px 0;
+}
+.x4-crypto-tables .x4-ui-select .x4-menu .x4-option:hover {
+  background-color: rgba(0,0,0,.12);
+}
+.x4-crypto-tables .x4-ui-select .x4-label {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: rgba(0,0,0,.54);
+  font-size: 12px;
+}
+.x4-crypto-tables .x4-ui-select.x4-focused .x4-box .x4-line .x4-shape2 {
+  transform: scaleX(1);
+}
+.x4-crypto-tables .x4-ui-select.x4-focused .x4-box .x4-icon svg {
+  transform: rotate(-180deg);
+}
+.x4-crypto-tables .x4-ui-select.x4-focused .x4-backdrop {
+  display: block;
+}
+.x4-crypto-tables .x4-ui-select.x4-focused .x4-menu {
+  opacity: 1;
+  overflow-y: auto;
+  z-index: 1000;
+  box-shadow: 0 5px 5px -3px rgba(0,0,0,.2), 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12);
+  max-height: 304px;
+}
+
+/* Input Box */
+.x4-crypto-tables .x4-ui-input {
+  min-width: 80px;
+  position: relative;
+}
+.x4-crypto-tables .x4-ui-input .x4-box {
+  height: 32px;
+  cursor: pointer;
+  position: relative;
+}
+.x4-crypto-tables .x4-ui-input .x4-box input {
+  overflow: hidden;
+  text-shadow: none;
+  white-space: nowrap;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 16px;
+  height: 30px;
+  margin: 0;
+  outline: none;
+  padding: 0;
+}
+.x4-crypto-tables .x4-ui-input .x4-box input::-webkit-input-placeholder {
+  color: rgba(0,0,0,.54);
+}
+.x4-crypto-tables .x4-ui-input .x4-box .x4-line {
+  bottom: 0px;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+.x4-crypto-tables .x4-ui-input .x4-box .x4-line .x4-shape1 {
+  background-color: rgba(0,0,0,.42);
+  height: 1px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+.x4-crypto-tables .x4-ui-input .x4-box .x4-line .x4-shape2 {
+  height: 2px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: scaleX(0);
+  transform-origin: center center 0;
+  transition: .3s cubic-bezier(.4,0,.2,1);
+  z-index: 1;
+}
+.x4-crypto-tables .x4-ui-input .x4-label {
+  color: rgba(0,0,0,.54);
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.x4-crypto-tables .x4-ui-input.x4-focused .x4-box .x4-line .x4-shape2 {
+  transform: scaleX(1);
+}
+
+/* Table Widget */
+.x4-crypto-tables .x4-ui-table {
+  border-radius: 2px;
+  overflow: hidden;
+  text-align: left;
+  width: 100%;
+}
+.x4-crypto-tables .x4-ui-table .x4-inside {
+  border-collapse: collapse;
+  border-spacing: 0;
+  display: table;
+  max-width: 100%;
+  width: 100%;
+}
+.x4-crypto-tables .x4-ui-table .x4-inside .x4-head {
+  display: table-header-group;
+}
+.x4-crypto-tables .x4-ui-table .x4-inside .x4-head .x4-row {
+  display: table-row;
+  border-bottom: 2px solid;
+  height: 56px;
+}
+.x4-crypto-tables .x4-ui-table .x4-inside .x4-head .x4-row .x4-column {
+  color: rgba(0,0,0,.87);
+  font-size: 13px;
+  font-weight: 500;
+  padding: 0 24px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  cursor: pointer;
+  display: table-cell;
+  min-height: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+  user-select: none;
+}
+.x4-crypto-tables .x4-ui-table .x4-inside .x4-head .x4-row .x4-column.x4-align-right {
+  text-align: right;
+}
+.x4-crypto-tables .x4-ui-table .x4-inside .x4-head .x4-row .x4-column .x4-value {
+  display: inline-block;
+}
+.x4-crypto-tables .x4-ui-table .x4-inside .x4-head .x4-row .x4-column .x4-sort {
+  display: inline-block;
+  opacity: 0;
+  vertical-align: sub;
+}
+.x4-crypto-tables .x4-ui-table .x4-inside .x4-head .x4-row .x4-column .x4-sort.x4-asc {
+  transform: rotate(-180deg);
+}
+.x4-crypto-tables .x4-ui-table .x4-inside .x4-head .x4-row .x4-column .x4-sort svg {
+  fill: rgba(0,0,0,.38);
+  height: 16px;
+  width: 16px;
+}
+.x4-crypto-tables .x4-ui-table .x4-inside .x4-head .x4-row .x4-column:hover .x4-sort {
+  opacity: 1;
+}
+.x4-crypto-tables .x4-ui-table .x4-inside .x4-head .x4-row .x4-column.x4-sort-active .x4-sort {
+  opacity: 1;
+}
+.x4-crypto-tables .x4-ui-table .x4-inside .x4-head .x4-row .x4-column.x4-sort-active .x4-sort svg {
+  fill: rgba(0,0,0,.87);
+}
+.x4-crypto-tables .x4-ui-table .x4-inside .x4-body {
+  display: table-row-group;
+}
+.x4-crypto-tables .x4-ui-table .x4-inside .x4-body .x4-row {
+  display: table-row;
+  border-bottom: 1px solid rgba(0,0,0,.06);
+  height: 48px;
+}
+.x4-crypto-tables .x4-ui-table .x4-inside .x4-body .x4-row .x4-column {
+  font-size: 13px;
+  font-weight: 400;
+  padding: 0 24px;
+  vertical-align: middle;
+  display: table-cell;
+  min-height: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.x4-crypto-tables .x4-ui-table .x4-inside .x4-body .x4-row .x4-column.x4-align-right {
+  text-align: right;
+}
+
+/* Fiat select box */
+.x4-crypto-tables .x4-header .x4-fiat-select {
+  float: left;
+  margin-right: 48px;
+  max-width: 120px;
+  padding: 24px 0;
+  width: 100%;
+}
+.x4-crypto-tables .x4-header .x4-fiat-select .x4-prefix {
+  float: left;
+  padding-top: 10px;
+}
+.x4-crypto-tables .x4-header .x4-fiat-select .x4-prefix svg {
+  height: 32px;
+  width: 32px;
+}
+.x4-crypto-tables .x4-header .x4-fiat-select.x4-with-icon {
+  max-width: 160px;
+}
+.x4-crypto-tables .x4-header .x4-fiat-select.x4-with-icon .x4-ui-select {
+  margin-left: 40px;
+}
+.x4-crypto-tables.x4-tablet .x4-header .x4-fiat-select {
+  margin-right: 0;
+  max-width: 50%;
+  padding-right: 16px;
+}
+.x4-crypto-tables.x4-mobile .x4-header .x4-fiat-select {
+  padding-left: 16px;
+}
+.x4-crypto-tables.x4-mobile .x4-header .x4-fiat-select .x4-prefix {
+  display: none;
+}
+.x4-crypto-tables.x4-mobile .x4-header .x4-fiat-select .x4-ui-select {
+  margin-left: 0;
+}
+
+/* Per page select box */
+.x4-crypto-tables .x4-header .x4-per-page {
+  float: left;
+}
+.x4-crypto-tables .x4-header .x4-per-page .x4-prefix {
+  float: left;
+}
+.x4-crypto-tables .x4-header .x4-per-page {
+  max-width: 120px;
+  padding: 24px 0;
+  width: 100%;
+}
+.x4-crypto-tables .x4-header .x4-per-page .x4-prefix {
+  padding-top: 10px;
+}
+.x4-crypto-tables .x4-header .x4-per-page .x4-prefix svg {
+  height: 32px;
+  width: 32px;
+}
+.x4-crypto-tables .x4-header .x4-per-page.x4-with-icon {
+  max-width: 168px;
+}
+.x4-crypto-tables .x4-header .x4-per-page.x4-with-icon .x4-ui-select {
+  margin-left: 48px;
+}
+.x4-crypto-tables.x4-tablet .x4-header .x4-per-page {
+  max-width: 50%;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.x4-crypto-tables.x4-mobile .x4-header .x4-per-page .x4-prefix {
+  display: none;
+}
+.x4-crypto-tables.x4-mobile .x4-header .x4-per-page .x4-ui-select {
+  margin-left: 0;
+}
+
+/* Search input box */
+.x4-crypto-tables .x4-header .x4-search {
+  float: right;
+  max-width: 240px;
+  padding: 24px 0;
+  width: 100%;
+}
+.x4-crypto-tables .x4-header .x4-search .x4-icon {
+  float: left;
+  padding-top: 10px;
+}
+.x4-crypto-tables .x4-header .x4-search .x4-icon svg {
+  height: 32px;
+  width: 32px;
+}
+.x4-crypto-tables .x4-header .x4-search.x4-with-icon {
+  max-width: 280px;
+}
+.x4-crypto-tables .x4-header .x4-search.x4-with-icon .x4-ui-input {
+  margin-left: 40px;
+}
+.x4-crypto-tables.x4-tablet .x4-header .x4-search {
+  clear: both;
+  float: left;
+  max-width: 100%;
+  padding-right: 16px;
+}
+.x4-crypto-tables.x4-mobile .x4-header .x4-search {
+  padding-left: 8px;
+  max-width: 100%;
+}
+
+/* Pager block */
+.x4-crypto-tables .x4-footer .x4-pager {
+  color: rgba(0,0,0,.54);
+  float: right;
+  font-size: 12px;
+  height: 58px;
+  user-select: none;
+}
+.x4-crypto-tables .x4-footer .x4-pager .x4-label {
+  float: left;
+  padding: 20px 26px 20px 32px;
+}
+.x4-crypto-tables .x4-footer .x4-pager .x4-previous,
+.x4-crypto-tables .x4-footer .x4-pager .x4-next {
+  cursor: pointer;
+  float: left;
+  padding: 16px 8px 16px 8px;
+}
+.x4-crypto-tables .x4-footer .x4-pager .x4-next {
+  padding-left: 18px;
+}
+.x4-crypto-tables .x4-footer .x4-pager .x4-previous.x4-disabled,
+.x4-crypto-tables .x4-footer .x4-pager .x4-next.x4-disabled {
+  cursor: default;
+}
+.x4-crypto-tables .x4-footer .x4-pager .x4-previous.x4-disabled svg,
+.x4-crypto-tables .x4-footer .x4-pager .x4-next.x4-disabled svg {
+  fill: rgba(0,0,0,.26);
+}
+.x4-crypto-tables.x4-mobile .x4-footer .x4-pager .x4-label {
+  padding-left: 0;
+  padding-right: 8px;
+}
+.x4-crypto-tables.x4-mobile .x4-footer .x4-pager .x4-next {
+  padding-left: 8px;
+}
+
+/* Table block */
+.x4-crypto-tables .x4-tables .x4-table {
+  opacity: 1;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+.x4-crypto-tables .x4-tables .x4-table .x4-ui-table .x4-inside .x4-body .x4-row .x4-column .x4-value div {
+  display: inline-block;
+  vertical-align: middle;
+}
+.x4-crypto-tables .x4-tables .x4-table .x4-ui-table .x4-inside .x4-body .x4-row .x4-column .x4-value .x4-cc-coin {
+  margin-right: 8px;
+}
+.x4-crypto-tables .x4-tables .x4-table .x4-ui-table .x4-inside .x4-body .x4-row .x4-column .x4-value.x4-badge {
+  border-radius: 4px;
+  display: inline-block;
+  padding: 2px 12px;
+  text-align: center;
+}
+.x4-crypto-tables .x4-tables .x4-table.x4-appear {
+  opacity: 0;
+}
+.x4-crypto-tables .x4-tables .x4-table.x4-disappear {
+  opacity: 0;
+  position: absolute;
+}
+.x4-crypto-tables .x4-tables .x4-table.x4-with-chart .x4-ui-table .x4-inside .x4-body .x4-row .x4-column {
+  cursor: pointer;
+}
+.x4-crypto-tables.x4-tablet .x4-tables .x4-table .x4-ui-table .x4-inside .x4-head .x4-row .x4-column,
+.x4-crypto-tables.x4-tablet .x4-tables .x4-table .x4-ui-table .x4-inside .x4-body .x4-row .x4-column {
+  padding: 0 16px;
+}
+.x4-crypto-tables.x4-mobile .x4-tables .x4-table .x4-ui-table .x4-inside .x4-head .x4-row .x4-column,
+.x4-crypto-tables.x4-mobile .x4-tables .x4-table .x4-ui-table .x4-inside .x4-body .x4-row .x4-column {
+  padding: 0 8px;
+}
+
+/* Table popup block */
+.x4-crypto-tables .x4-tables .x4-table .x4-ui-table .x4-inside .x4-body .x4-row.x4-table-popup {
+  border: none;
+  height: 0;
+  position: relative;
+}
+.x4-crypto-tables .x4-tables .x4-table .x4-ui-table .x4-inside .x4-body .x4-row.x4-table-popup .x4-inside2 {
+  height: 0;
+  left: 0;
+  margin-top: -1px;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  border-bottom: 1px solid rgba(0,0,0,.06);
+  padding: 24px 24px 24px 24px;
+}
+.x4-crypto-tables .x4-tables .x4-table .x4-ui-table .x4-inside .x4-body .x4-row.x4-table-popup .x4-inside2 .x4-loader2 {
+  display: none;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  height: 200px;
+  width: 200px;
+}
+.x4-crypto-tables .x4-tables .x4-table .x4-ui-table .x4-inside .x4-body .x4-row.x4-table-popup .x4-inside2 .x4-header {
+  margin-left: 16px;
+  padding-bottom: 16px;
+}
+.x4-crypto-tables .x4-tables .x4-table .x4-ui-table .x4-inside .x4-body .x4-row.x4-table-popup .x4-inside2 .x4-header .x4-chart-prop {
+  float: left;
+  margin-right: 48px;
+  max-width: 144px;
+  width: 100%;
+}
+.x4-crypto-tables .x4-tables .x4-table .x4-ui-table .x4-inside .x4-body .x4-row.x4-table-popup .x4-inside2 .x4-header .x4-chart-period {
+  float: left;
+  max-width: 144px;
+  width: 100%;
+}
+.x4-crypto-tables .x4-tables .x4-table .x4-ui-table .x4-inside .x4-body .x4-row.x4-table-popup .x4-inside2 .x4-chart {
+  margin: 0 -8px 0 -28px;
+  position: relative;
+}
+.x4-crypto-tables .x4-tables .x4-table .x4-ui-table .x4-inside .x4-body .x4-row.x4-table-popup .x4-inside2 .x4-chart .x4-back {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: rgba(0,0,0,.04);
+  font-size: 110px;
+  top: 28%;
+}
+.x4-crypto-tables .x4-tables .x4-table .x4-ui-table .x4-inside .x4-body .x4-row.x4-table-popup .x4-inside2 .x4-chart .x4-canvas {
+  position: relative;
+  z-index: 1;
+}
+.x4-crypto-tables .x4-tables .x4-table .x4-ui-table .x4-inside .x4-body .x4-row.x4-table-popup.x4-loading .x4-inside2 .x4-loader2 {
+  display: block;
+}
+.x4-crypto-tables .x4-tables .x4-table .x4-ui-table .x4-inside .x4-body .x4-row.x4-table-popup.x4-loading .x4-inside2 .x4-header {
+  display: none;
+}
+.x4-crypto-tables .x4-tables .x4-table .x4-ui-table .x4-inside .x4-body .x4-row.x4-table-popup.x4-loading .x4-inside2 .x4-chart {
+  display: none!important;
+}
+.x4-crypto-tables.x4-tablet .x4-tables .x4-table .x4-ui-table .x4-inside .x4-body .x4-row.x4-table-popup .x4-inside2 .x4-header {
+  margin-left: 0;
+}
+.x4-crypto-tables.x4-tablet .x4-tables .x4-table .x4-ui-table .x4-inside .x4-body .x4-row.x4-table-popup .x4-inside2 .x4-header .x4-chart-prop {
+  margin-right: 0;
+  max-width: 50%;
+  padding-right: 16px;
+}
+.x4-crypto-tables.x4-tablet .x4-tables .x4-table .x4-ui-table .x4-inside .x4-body .x4-row.x4-table-popup .x4-inside2 .x4-header .x4-chart-period {
+  max-width: 50%;
+  padding-left: 16px;
+}
+.x4-crypto-tables.x4-mobile .x4-tables .x4-table .x4-ui-table .x4-inside .x4-body .x4-row.x4-table-popup .x4-inside2 {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.x4-crypto-tables.x4-mobile .x4-tables .x4-table .x4-ui-table .x4-inside .x4-body .x4-row.x4-table-popup .x4-inside2 .x4-chart {
+  margin-right: -16px;
+}
+.x4-crypto-tables.x4-mobile .x4-tables .x4-table .x4-ui-table .x4-inside .x4-body .x4-row.x4-table-popup .x4-inside2 .x4-chart .x4-back {
+  display: none;
+}

@@ -1,1 +1,1 @@
-www.atlasapp.co/
+http://www.atlasapp.co/

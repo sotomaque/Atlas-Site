@@ -97,7 +97,7 @@ a, input[type="submit"] {
     text-align: center;
     font-size: 25px;
     font-weight: 300;
-    color: #f16ff9;
+    color: #3d3d3d;
     position: relative;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -108,7 +108,7 @@ a, input[type="submit"] {
     content: "";
     width: 58px;
     height: 2px;
-    background-color: #f16ff9;
+    background-color: #3d3d3d;
     left: 50%;
     margin-left: -29px;
     bottom: -8px;
@@ -158,7 +158,7 @@ a, input[type="submit"] {
 }
 
 .row-icon .pricing-icon.color1 .htfy, .row-icon .pricing-icon.color1 .fa {
-    color: #756de7;
+    color: #00b869;
 }
 
 .row-icon .pricing-icon.color2 .htfy, .row-icon .pricing-icon.color2 .fa {
@@ -203,31 +203,31 @@ a, input[type="submit"] {
 
 .ybtn-accent-color {
     color: #ffffff;
-    background-color: #756de7;
+    background-color: #00b869;
 }
 
 .ybtn-accent-color:hover, .ybtn-accent-color:focus {
     color: #ffffff;
-    background-color: #6057e3;
+    background-color: #009f5a;
 }
 
 .ybtn-other-color {
     color: #ffffff;
-    background-color: #f16ff9;
+    background-color: #3d3d3d;
 }
 
 .ybtn-other-color:hover, .ybtn-other-color:focus {
     color: #ffffff;
-    background-color: #ec3ef7;
+    background-color: #242424;
 }
 
 .ybtn-purple-text {
-    color: #756de7;
+    color: #00b869;
     background-color: transparent;
 }
 
 .ybtn-purple-text:hover, .ybtn-purple-text:focus {
-    color: #6057e3;
+    color: #009f5a;
 }
 
 .ybtn-purple {
@@ -327,10 +327,10 @@ a, input[type="submit"] {
     top: -20%;
     width: 100%;
     height: 108%;
-    background-image: url(../images/headbg.svg);
+    background-image: url(../images/headbg-green.svg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-color: #756de7;
+    background-color: #00b869;
     -webkit-transform: skewY(-10deg);
     -moz-transform: skewY(-10deg);
     -ms-transform: skewY(-10deg);
@@ -339,7 +339,7 @@ a, input[type="submit"] {
 }
 
 #header-holder.inner-header {
-    background-color: #756de7;
+    background-color: #00b869;
 }
 
 #header-holder.inner-header .bg-animation {
@@ -347,7 +347,7 @@ a, input[type="submit"] {
     top: 0;
     height: 100%;
     background-image: inherit;
-    background-color: #756de7;
+    background-color: #00b869;
     -webkit-transform: skewY(0deg);
     -moz-transform: skewY(0deg);
     -ms-transform: skewY(0deg);
@@ -462,7 +462,7 @@ svg.logo text {
     position: relative;
     cursor: pointer;
     padding: 9px 30px;
-    background-color: #65d692;
+    background-color: #142745;
     border-radius: 4px;
     color: #ffffff;
     opacity: 1;
@@ -477,7 +477,7 @@ svg.logo text {
 }
 
 .support-button-holder a.support-button:hover, .support-button-holder a.support-button:focus {
-    background-color: #55d287 !important;
+    background-color: #0f1e35 !important;
     color: #ffffff !important;
     opacity: 1 !important;
 }
@@ -539,7 +539,7 @@ svg.logo text {
 }
 
 .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
-    color: #756de7;
+    color: #00b869;
     background-color: #f7f6f8;
 }
 
@@ -767,7 +767,7 @@ svg.logo text {
 }
 
 .support-button-holder .dropdown-menu li a:hover, .support-button-holder .dropdown-menu li a:focus {
-    color: #756de7;
+    color: #00b869;
     background-color: #f7f6f8;
 }
 
@@ -794,7 +794,7 @@ svg.logo text {
 
 #top-content .big-title span {
     font-size: 48px;
-    color: #84ebad;
+    color: #ffffff;
     font-weight: 700;
 }
 
@@ -823,7 +823,7 @@ svg.logo text {
 #top-content .domain-search-holder input[type="submit"] {
     padding: 20px 30px;
     border-radius: 10px;
-    background-color: #65d692;
+    background-color: #142745;
     font-size: 18px;
     color: #ffffff;
     border: 0;
@@ -834,7 +834,7 @@ svg.logo text {
 }
 
 #top-content .domain-search-holder input[type="submit"]:hover, #top-content .domain-search-holder input[type="submit"]:focus {
-    background-color: #55d287;
+    background-color: #0f1e35;
 }
 
 #top-content .domain-search-holder ::-webkit-input-placeholder {
@@ -871,7 +871,7 @@ svg.logo text {
     display: inline-block;
     width: 65px;
     height: 65px;
-    background-color: #65d692;
+    background-color: #142745;
     border-radius: 100px;
     -webkit-box-shadow: 0 9px 18px rgba(0, 0, 0, 0.08);
     box-shadow: 0 9px 18px rgba(0, 0, 0, 0.08);
@@ -1304,7 +1304,7 @@ svg.logo text {
 .text-other-color1 {
     font-size: 25px;
     font-weight: 300;
-    color: #756de7;
+    color: #00b869;
 }
 
 .text-purple-dark {
@@ -1316,7 +1316,7 @@ svg.logo text {
 .text-other-color2 {
     font-size: 25px;
     font-weight: 400;
-    color: #593295;
+    color: #00854c;
 }
 
 /*------------------------------------------------------------------
@@ -2331,7 +2331,7 @@ svg.logo text {
     left: 0;
     top: 0;
     padding: 60px 50px;
-    background-color: #756de7;
+    background-color: #00b869;
     border-radius: 10px;
     -webkit-transform: rotateX(60deg) scale(0.5) translateY(50px);
     -moz-transform: rotateX(60deg) scale(0.5) translateY(50px);
@@ -2377,13 +2377,13 @@ svg.logo text {
 }
 
 #features-holder .feature-box .feature-details {
-    color: #c0bbf9;
+    color: rgba(255, 255, 255, 0.7);
     font-size: 17px;
     font-weight: 300;
 }
 
 #features-holder .feature-box .feature-details p {
-    color: #c0bbf9;
+    color: rgba(255, 255, 255, 0.7);
     font-size: 17px;
     font-weight: 300;
     margin-bottom: 20px;
@@ -2419,7 +2419,7 @@ svg.logo text {
     width: 62px;
     height: 62px;
     border-radius: 100px;
-    background-color: #756de7;
+    background-color: #00b869;
     text-align: center;
     padding-top: 8px;
     z-index: 100;
@@ -2429,7 +2429,7 @@ svg.logo text {
 }
 
 #features-links-holder .feature-icon-holder.opened {
-    background-color: #f16ff9;
+    background-color: #3d3d3d;
 }
 
 #features-links-holder .feature-icon-holder.opened .animation-holder {
@@ -2441,7 +2441,7 @@ svg.logo text {
 }
 
 #features-links-holder .feature-icon-holder:hover, #features-links-holder .feature-icon-holder:focus {
-    background-color: #5d56c9;
+    background-color: #009f5a;
 }
 
 #features-links-holder .feature-icon-holder .feature-icon {
@@ -2726,7 +2726,7 @@ svg.logo text {
 	12. Footer Section Styles
 -------------------------------------------------------------------*/
 #footer {
-    background-color: #756de7;
+    background-color: #00b869;
     padding-top: 90px;
     padding-bottom: 70px;
     text-align: center;
@@ -2762,7 +2762,7 @@ svg.logo text {
 }
 
 #footer ul.footer-menu li a {
-    color: #ccc9fb;
+    color: rgba(255, 255, 255, 0.7);
     font-size: 15px;
     font-weight: 300;
     padding: 2px 15px;
@@ -2774,7 +2774,7 @@ svg.logo text {
 }
 
 #footer ul.footer-menu li a:hover, #footer ul.footer-menu li a:focus {
-    color: #756de7;
+    color: #00b869;
     background-color: #ffffff;
     -webkit-box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
@@ -2782,7 +2782,7 @@ svg.logo text {
 }
 
 #footer ul.footer-menu li.active a {
-    color: #756de7;
+    color: #00b869;
     background-color: #ffffff;
     -webkit-box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
@@ -2821,7 +2821,7 @@ svg.logo text {
 }
 
 #footer .phone:hover {
-    background-color: #6159d1;
+    background-color: #00854c;
     -webkit-box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
 }
@@ -2847,7 +2847,7 @@ svg.logo text {
 }
 
 #footer .email:hover {
-    background-color: #6159d1;
+    background-color: #00854c;
     -webkit-box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
 }
@@ -2878,7 +2878,7 @@ svg.logo text {
 }
 
 #footer .address:hover {
-    background-color: #6159d1;
+    background-color: #00854c;
     -webkit-box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
 }
@@ -2901,7 +2901,7 @@ svg.logo text {
 }
 
 #footer .social-menu li a .fa {
-    color: #5550a8;
+    color: #00854c;
     font-size: 30px;
     text-align: center;
     min-width: 30px;
@@ -2948,7 +2948,7 @@ svg.logo text {
     min-height: 700px;
     height: 100%;
     overflow: hidden;
-    background-color: #756de7;
+    background-color: #00b869;
     padding: 140px 60px 60px;
     text-align: center;
     z-index: 999;
@@ -2974,7 +2974,7 @@ svg.logo text {
     top: -20%;
     width: 100%;
     height: 70%;
-    background-image: url(../images/headbg.svg);
+    background-image: url(../images/headbg-green.svg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     -webkit-transform: skewY(-10deg);
@@ -3097,7 +3097,7 @@ svg.logo text {
     text-transform: uppercase;
     padding: 8px 20px;
     border-radius: 10px;
-    background-color: #756de7;
+    background-color: #00b869;
     text-decoration: none;
     margin-left: 10px;
     -webkit-box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
@@ -3107,7 +3107,7 @@ svg.logo text {
 }
 
 .form-holder .menu-holder ul.main-links li a.sign-button:hover, .form-holder .menu-holder ul.main-links li a.sign-button:focus {
-    background-color: #6057e3;
+    background-color: #009f5a;
 }
 
 .form-holder.signup .menu-holder ul.main-links li a.normal-link {
@@ -3199,7 +3199,7 @@ svg.logo text {
 }
 
 .signin-signup-form .form-title {
-    color: #756de7;
+    color: #00b869;
     font-weight: 300;
     font-size: 19px;
     margin-bottom: 50px;
@@ -3295,7 +3295,7 @@ svg.logo text {
 }
 
 .signin-signup-form .form-text input[type="checkbox"]:checked + label, .signin-signup-form .form-text input[type="radio"]:checked + label {
-    color: #756de7;
+    color: #00b869;
 }
 
 .signin-signup-form .form-text input[type="checkbox"]:checked + label:before, .signin-signup-form .form-text input[type="radio"]:checked + label:before {
@@ -3305,7 +3305,7 @@ svg.logo text {
     top: 2px;
     width: 15px;
     height: 15px;
-    background: #756de7;
+    background: #00b869;
     border-radius: 50px;
     border: 0px solid #abb4bc;
     -webkit-transition: all 0.3s ease;
@@ -3393,7 +3393,7 @@ svg.logo text {
 }
 
 #header-holder.contact-header {
-    background-color: #0e0b30;
+    background-color: #222222;
 }
 
 #header-holder.contact-header #page-head .page-title {
@@ -3418,7 +3418,7 @@ svg.logo text {
 }
 
 #header-holder.about-header {
-    background-color: #756de7;
+    background-color: #00b869;
 }
 
 #header-holder.about-header #page-head {
@@ -3608,12 +3608,12 @@ svg.logo text {
     font-size: 19px;
     font-weight: 700;
     color: #ffffff;
-    background-color: #756de7;
+    background-color: #00b869;
     border-radius: 5px;
 }
 
 #header-holder.domainspage-header #page-head .domain-search-holder .input-holder #search-btn:hover, #header-holder.domainspage-header #page-head .domain-search-holder .input-holder #search-btn:focus {
-    background-color: #6057e3;
+    background-color: #009f5a;
 }
 
 .bg-custom {
@@ -3627,9 +3627,9 @@ svg.logo text {
 
 .bg-custom .obj-gradiant1 {
     background-repeat: repeat-x;
-    background-image: -webkit-linear-gradient(90deg, #8700ee, #756de7);
-    background-image: -o-linear-gradient(90deg, #8700ee, #756de7);
-    background-image: linear-gradient(90deg, #8700ee, #756de7);
+    background-image: -webkit-linear-gradient(90deg, #004c52, #00b869);
+    background-image: -o-linear-gradient(90deg, #004c52, #00b869);
+    background-image: linear-gradient(90deg, #004c52, #00b869);
     opacity: 0.43;
     position: absolute;
     width: 70%;
@@ -3640,9 +3640,9 @@ svg.logo text {
 
 .bg-custom .obj-gradiant2 {
     background-repeat: repeat-x;
-    background-image: -webkit-linear-gradient(90deg, #756de7, #8700ee);
-    background-image: -o-linear-gradient(90deg, #756de7, #8700ee);
-    background-image: linear-gradient(90deg, #756de7, #8700ee);
+    background-image: -webkit-linear-gradient(90deg, #00b869, #004c52);
+    background-image: -o-linear-gradient(90deg, #00b869, #004c52);
+    background-image: linear-gradient(90deg, #00b869, #004c52);
     opacity: 0.43;
     position: absolute;
     width: 70%;
@@ -3665,7 +3665,7 @@ svg.logo text {
     height: 106px;
     display: inline-block;
     position: absolute;
-    background-color: rgba(129, 122, 233, 0.8);
+    background-color: rgba(0, 199, 114, 0.8);
     text-align: center;
     margin-top: -53px;
     margin-left: -53px;
@@ -3718,9 +3718,9 @@ svg.logo text {
 
 .icons-animation-holder .aicon-main {
     background-repeat: repeat-x;
-    background-image: -webkit-linear-gradient(-30deg, #b3aff2, #756de7);
-    background-image: -o-linear-gradient(-30deg, #b3aff2, #756de7);
-    background-image: linear-gradient(-30deg, #b3aff2, #756de7);
+    background-image: -webkit-linear-gradient(-30deg, #06ff94, #00b869);
+    background-image: -o-linear-gradient(-30deg, #06ff94, #00b869);
+    background-image: linear-gradient(-30deg, #06ff94, #00b869);
     -webkit-box-shadow: 0 0 45px rgba(0, 0, 0, 0.15);
     box-shadow: 0 0 45px rgba(0, 0, 0, 0.15);
     top: 50%;
@@ -3847,7 +3847,7 @@ svg.logo text {
 }
 
 #ifeatures .feature-box .feature-title {
-    color: #756de7;
+    color: #00b869;
     font-size: 17px;
     font-weight: 700;
     margin-bottom: 25px;
@@ -3876,7 +3876,7 @@ svg.logo text {
 
 #more-info {
     background-color: #857eea;
-    background-color: #8a83eb;
+    background-color: #00d278;
     padding-top: 80px;
     padding-bottom: 80px;
     position: relative;
@@ -3895,9 +3895,9 @@ svg.logo text {
 #more-info .bg-custom .obj-gradiant1 {
       /*@include gradient(#97cae5,$main-accent-color,0deg);*/
     background-repeat: repeat-x;
-    background-image: -webkit-linear-gradient(0deg, #87bdce, #756de7);
-    background-image: -o-linear-gradient(0deg, #87bdce, #756de7);
-    background-image: linear-gradient(0deg, #87bdce, #756de7);
+    background-image: -webkit-linear-gradient(0deg, #3d9c1c, #00b869);
+    background-image: -o-linear-gradient(0deg, #3d9c1c, #00b869);
+    background-image: linear-gradient(0deg, #3d9c1c, #00b869);
     opacity: 1;
     position: absolute;
     width: 45%;
@@ -3908,9 +3908,9 @@ svg.logo text {
 
 #more-info .bg-custom .obj-gradiant2 {
     background-repeat: repeat-x;
-    background-image: -webkit-linear-gradient(90deg, #756de7, #b3aff2);
-    background-image: -o-linear-gradient(90deg, #756de7, #b3aff2);
-    background-image: linear-gradient(90deg, #756de7, #b3aff2);
+    background-image: -webkit-linear-gradient(90deg, #00b869, #06ff94);
+    background-image: -o-linear-gradient(90deg, #00b869, #06ff94);
+    background-image: linear-gradient(90deg, #00b869, #06ff94);
     opacity: 0.4;
     position: absolute;
     width: 60%;
@@ -3952,7 +3952,7 @@ svg.logo text {
 }
 
 #more-info .links-holder ul li .info-link:hover, #more-info .links-holder ul li .info-link:focus, #more-info .links-holder ul li .info-link.opened {
-    background-color: #756de7;
+    background-color: #00b869;
     border-radius: 10px;
     -webkit-box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
     box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
@@ -4204,7 +4204,11 @@ svg.logo text {
 }
 
 #apps {
-  
+    background-color: #7662e5;
+    background-repeat: repeat-x;
+    background-image: -webkit-linear-gradient(90deg, #7360e0, #4f429a);
+    background-image: -o-linear-gradient(90deg, #7360e0, #4f429a);
+    background-image: linear-gradient(90deg, #7360e0, #4f429a);
     padding-top: 30px;
     padding-bottom: 40px;
     text-align: center;
@@ -4215,8 +4219,8 @@ svg.logo text {
 }
 
 #apps .row-title {
-    color: #fff;
-    font-size: 5em;
+    color: #b6acf4;
+    font-size: 25px;
     margin-top: 10px;
     margin-bottom: 60px;
 }
@@ -4401,7 +4405,7 @@ svg.logo text {
 }
 
 #articles .article-summary .article-title a {
-    color: #756de7;
+    color: #00b869;
     font-size: 16px;
     font-weight: 600;
     text-decoration: none;
@@ -4411,7 +4415,7 @@ svg.logo text {
 }
 
 #articles .article-summary .article-title a:hover, #articles .article-summary .article-title a:focus {
-    color: #4c41e0;
+    color: #00854c;
 }
 
 #articles .article-summary .article-title:after {
@@ -4491,10 +4495,10 @@ svg.logo text {
 #articles .pagination .page-number {
     border-radius: 50px;
     padding: 5px 10px;
-    color: #756de7;
+    color: #00b869;
     text-decoration: none;
     font-weight: 600;
-    border: 2px solid #756de7;
+    border: 2px solid #00b869;
 }
 
 #articles .pagination a.page-number {
@@ -4557,7 +4561,7 @@ svg.logo text {
 #post-content .post .meta .view:before {
     content: "\f06e";
     font-family: fontAwesome;
-    color: #756de7;
+    color: #00b869;
     margin-right: 10px;
 }
 
@@ -4569,7 +4573,7 @@ svg.logo text {
 #post-content .post .meta .like:before {
     content: "\f004";
     font-family: fontAwesome;
-    color: #756de7;
+    color: #00b869;
     margin-right: 10px;
 }
 
@@ -4591,7 +4595,7 @@ svg.logo text {
 #post-content .post .meta .comment:before {
     content: "\f27a";
     font-family: fontAwesome;
-    color: #756de7;
+    color: #00b869;
     margin-right: 10px;
 }
 
@@ -4778,11 +4782,11 @@ svg.logo text {
 }
 
 #contact-info .info-box:hover .info-title:before {
-    background-color: #756de7;
+    background-color: #00b869;
 }
 
 #contact-info .info-box .info-title {
-    color: #756de7;
+    color: #00b869;
     font-size: 17px;
     font-weight: 600;
     text-transform: uppercase;
@@ -4801,7 +4805,7 @@ svg.logo text {
     border-radius: 50px;
     width: 48px;
     height: 48px;
-    background-color: #f16ff9;
+    background-color: #3d3d3d;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
@@ -4828,14 +4832,14 @@ svg.logo text {
 
 #contact-info .info-box .info-details a {
     font-size: 15px;
-    color: #756de7;
+    color: #00b869;
     text-decoration: none;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
 
 #contact-info .info-box .info-details a:hover, #contact-info .info-box .info-details a:focus {
-    color: #4c41e0;
+    color: #00854c;
 }
 
 #contact-info .info-box .info-details p {
@@ -4862,7 +4866,7 @@ svg.logo text {
 #extra-info h1 {
     font-size: 38px;
     font-weight: 600;
-    color: #756de7;
+    color: #00b869;
     margin-bottom: 30px;
     line-height: 50px;
 }
@@ -4870,7 +4874,7 @@ svg.logo text {
 #extra-info p {
     font-size: 16px;
     font-weight: 300;
-    color: #756de7;
+    color: #00b869;
     opacity: 0.7;
     line-height: 30px;
 }
@@ -5088,7 +5092,7 @@ svg.logo text {
     text-align: center;
     font-size: 15px;
     font-weight: 700;
-    color: #756de7;
+    color: #00b869;
     background-color: #fcfcfd;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -5136,7 +5140,7 @@ svg.logo text {
 }
 
 #domain-pricing .pricing-table-holder table tr td .register-button:hover, #domain-pricing .pricing-table-holder table tr td .register-button:focus {
-    background-color: #756de7;
+    background-color: #00b869;
 }
 
 #domain-pricing .pricing-table-holder table tr:nth-of-type(odd) {
@@ -5151,7 +5155,7 @@ svg.logo text {
 }
 
 #domain-pricing .pricing-table-holder table tr:hover td, #domain-pricing .pricing-table-holder table tr:focus td {
-    color: #756de7;
+    color: #00b869;
 }
 
 #domain-pricing .htfy-pricing-table-holder {
@@ -5193,7 +5197,7 @@ svg.logo text {
     text-align: center;
     font-size: 15px;
     font-weight: 700;
-    color: #756de7;
+    color: #00b869;
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 27px 10px;
@@ -5239,7 +5243,7 @@ svg.logo text {
 }
 
 #domain-pricing .htfy-pricing-table-holder .htfy-table .row .td .register-button:hover, #domain-pricing .htfy-pricing-table-holder .htfy-table .row .td .register-button:focus {
-    background-color: #756de7;
+    background-color: #00b869;
 }
 
 #domain-pricing .htfy-pricing-table-holder .htfy-table .row.trow:before {
@@ -5289,7 +5293,7 @@ svg.logo text {
 }
 
 #domain-pricing .htfy-pricing-table-holder .htfy-table .row.trow:hover .td, #domain-pricing .htfy-pricing-table-holder .htfy-table .row.trow:focus .td {
-    color: #756de7;
+    color: #00b869;
 }
 
 #serverslocation {
@@ -5352,7 +5356,7 @@ svg.logo text {
     width: 13px;
     height: 13px;
     border-radius: 20px;
-    background-color: #756de7;
+    background-color: #00b869;
     margin-right: 8px;
     margin-left: 8px;
 }
@@ -5558,7 +5562,7 @@ svg.logo text {
     }
 
     #form-section svg.logo text {
-        fill: #756de7;
+        fill: #00b869;
     }
 
     #contact-info div[class^="col-"]:nth-child(2) .info-box:before {
